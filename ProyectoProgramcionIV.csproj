@@ -136,6 +136,10 @@
     <Compile Include="Migrations\202404060725093_InitialCreate_Categoría.Designer.cs">
       <DependentUpon>202404060725093_InitialCreate_Categoría.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202404060732446_InitialCreate_UnidadMedida.cs" />
+    <Compile Include="Migrations\202404060732446_InitialCreate_UnidadMedida.Designer.cs">
+      <DependentUpon>202404060732446_InitialCreate_UnidadMedida.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Categoría.cs" />
     <Compile Include="Models\UnidadMedida.cs" />
@@ -226,6 +230,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202404060725093_InitialCreate_Categoría.resx">
       <DependentUpon>202404060725093_InitialCreate_Categoría.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404060732446_InitialCreate_UnidadMedida.resx">
+      <DependentUpon>202404060732446_InitialCreate_UnidadMedida.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
