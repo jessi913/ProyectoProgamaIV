@@ -25,5 +25,6 @@ namespace ProyectoProgramcionIV.DataBase
         public DbSet<UnidadMedida> UnidadMedida { get; set; }
         public DbSet<GrupoDescuento> GrupoDescuento { get; set; }
         public DbSet<CondicionPag> CondicionPag { get; set; }
+        public DbSet<Cliente> Cliente { get; set; }
     }
 }
