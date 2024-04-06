@@ -144,6 +144,10 @@
     <Compile Include="Migrations\202404060738208_InitialCreate_GrupoDescuento.Designer.cs">
       <DependentUpon>202404060738208_InitialCreate_GrupoDescuento.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202404060742440_InitialCreate_CondicionPag.cs" />
+    <Compile Include="Migrations\202404060742440_InitialCreate_CondicionPag.Designer.cs">
+      <DependentUpon>202404060742440_InitialCreate_CondicionPag.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Categoría.cs" />
     <Compile Include="Models\CondicionPag.cs" />
@@ -242,6 +246,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202404060738208_InitialCreate_GrupoDescuento.resx">
       <DependentUpon>202404060738208_InitialCreate_GrupoDescuento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404060742440_InitialCreate_CondicionPag.resx">
+      <DependentUpon>202404060742440_InitialCreate_CondicionPag.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
