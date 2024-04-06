@@ -31,10 +31,11 @@ namespace ProyectoProgramcionIV.Models
         [ForeignKey("GrupoDescuentoId")]
         public virtual GrupoDescuento GrupoDescuento { get; set; }
 
-        [ForeignKey("CondicionPagoId")]
+        // Remueve la anotación ForeignKey de esta propiedad
         public int CondicionPagoId { get; set; }
 
         // Agrega esta propiedad de navegación
+        [ForeignKey("CondicionPagoId")]
         public virtual CondicionPag CondicionPago { get; set; }
 
         [Required]
@@ -42,6 +43,6 @@ namespace ProyectoProgramcionIV.Models
 
         [Required]
         public DateTime FechaCreacion { get; set; }
-    
-}
+
+    }
 }

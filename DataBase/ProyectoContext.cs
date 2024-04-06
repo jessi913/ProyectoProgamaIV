@@ -20,7 +20,13 @@ namespace ProyectoProgramcionIV.DataBase
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
             modelBuilder.Conventions.Remove<ManyToManyCascadeDeleteConvention>();
             modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
+            // Configuración de la relación entre Cliente y CondicionPag
+            modelBuilder.Entity<Cliente>()
+                .HasRequired(c => c.CondicionPago)
+                .WithMany()
+                .HasForeignKey(c => c.CondicionPagoId);
         }
+
         public DbSet<Categoría> Categoria { get; set; }
         public DbSet<UnidadMedida> UnidadMedida { get; set; }
         public DbSet<GrupoDescuento> GrupoDescuento { get; set; }
