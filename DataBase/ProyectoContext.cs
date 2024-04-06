@@ -23,6 +23,6 @@ namespace ProyectoProgramcionIV.DataBase
         }
         public DbSet<Categoría> Categoria { get; set; }
         public DbSet<UnidadMedida> UnidadMedida { get; set; }
-
+        public DbSet<GrupoDescuento> GrupoDescuento { get; set; }
     }
 }

@@ -140,6 +140,10 @@
     <Compile Include="Migrations\202404060732446_InitialCreate_UnidadMedida.Designer.cs">
       <DependentUpon>202404060732446_InitialCreate_UnidadMedida.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202404060738208_InitialCreate_GrupoDescuento.cs" />
+    <Compile Include="Migrations\202404060738208_InitialCreate_GrupoDescuento.Designer.cs">
+      <DependentUpon>202404060738208_InitialCreate_GrupoDescuento.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Categoría.cs" />
     <Compile Include="Models\GrupoDescuento.cs" />
@@ -234,6 +238,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202404060732446_InitialCreate_UnidadMedida.resx">
       <DependentUpon>202404060732446_InitialCreate_UnidadMedida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404060738208_InitialCreate_GrupoDescuento.resx">
+      <DependentUpon>202404060738208_InitialCreate_GrupoDescuento.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
