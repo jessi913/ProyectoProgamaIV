@@ -32,5 +32,7 @@ namespace ProyectoProgramcionIV.DataBase
         public DbSet<GrupoDescuento> GrupoDescuento { get; set; }
         public DbSet<CondicionPag> CondicionPag { get; set; }
         public DbSet<Cliente> Cliente { get; set; }
+
+        public DbSet<Factura> Factura { get; set; }
     }
 }
