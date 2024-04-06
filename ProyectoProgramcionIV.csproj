@@ -148,6 +148,10 @@
     <Compile Include="Migrations\202404060742440_InitialCreate_CondicionPag.Designer.cs">
       <DependentUpon>202404060742440_InitialCreate_CondicionPag.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202404061605281_InitialCreate_Cliente.cs" />
+    <Compile Include="Migrations\202404061605281_InitialCreate_Cliente.Designer.cs">
+      <DependentUpon>202404061605281_InitialCreate_Cliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Categoría.cs" />
     <Compile Include="Models\Cliente.cs" />
@@ -250,6 +254,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202404060742440_InitialCreate_CondicionPag.resx">
       <DependentUpon>202404060742440_InitialCreate_CondicionPag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404061605281_InitialCreate_Cliente.resx">
+      <DependentUpon>202404061605281_InitialCreate_Cliente.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
