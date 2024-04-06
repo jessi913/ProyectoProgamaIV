@@ -34,10 +34,14 @@ namespace ProyectoProgramcionIV.Models
         [ForeignKey("CondicionPagoId")]
         public int CondicionPagoId { get; set; }
 
+        // Agrega esta propiedad de navegación
+        public virtual CondicionPag CondicionPago { get; set; }
+
         [Required]
         public bool Estado { get; set; }
 
         [Required]
         public DateTime FechaCreacion { get; set; }
-    }
+    
+}
 }
