@@ -22,6 +22,7 @@ namespace ProyectoProgramcionIV.DataBase
             modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
         }
         public DbSet<Categoría> Categoria { get; set; }
-      
+        public DbSet<UnidadMedida> UnidadMedida { get; set; }
+
     }
 }
